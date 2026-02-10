@@ -82,14 +82,14 @@ export default function Page() {
     <div className="-mt-16 flex h-screen flex-col items-center justify-center">
       {yesPressed ? (
         <>
-          <img className="h-[250px] w-auto object-contain" src="/will-you-be-my-valentine/me.png?v=4" alt="Valentine" />
+          <img className="h-[250px] w-auto object-contain" src="./me.png?v=5" alt="Valentine" />
           <div className="my-4 text-4xl font-bold">YEYY!! I love you Jagi!! ;)) mwa mwa mwa mwa</div>
         </>
       ) : (
         <>
           <img
             className="h-[250px] w-auto object-contain"
-            src="/will-you-be-my-valentine/me.png?v=4"
+            src="./me.png?v=5"
             alt="Valentine"
           />
           <h1 className="my-4 text-4xl">Will you be my Valentine?</h1>
