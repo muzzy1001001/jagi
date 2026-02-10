@@ -55,29 +55,6 @@ export default function Page() {
     }
   };
 
-  const getNoButtonText = () => {
-    const phrases = [
-      "No",
-      "Are you sure?",
-      "What if I asked really nicely?",
-      "Pretty please",
-      "With a chocolate rice cake on top",
-      "What about a matcha frostie",
-      "PLEASE POOKIE",
-      "But :*(",
-      "I am going to die",
-      "Yep im dead",
-      "ok ur talking to nathan's ghost",
-      "please babe",
-      ":((((",
-      "PRETTY PLEASE",
-      "Estoy muerto",
-      "No :(",
-    ];
-
-    return phrases[Math.min(noCount, phrases.length - 1)];
-  };
-
   return (
     <div className="-mt-16 flex h-screen flex-col items-center justify-center">
       {yesPressed ? (
